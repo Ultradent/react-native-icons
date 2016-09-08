@@ -5,8 +5,10 @@
  */
 'use strict';
 
-var React = require('react-native');
-var { Image, StyleSheet, View, requireNativeComponent, PropTypes, Dimensions} = React;
+var React = require('react');
+var ReactNative = require('react-native');
+var { PropTypes } = React;
+var { Image, StyleSheet, View, requireNativeComponent, Dimensions} = ReactNative;
 
 var onlyChild = React.Children.only;
 

@@ -5,9 +5,13 @@
  */
 'use strict';
 
-var React = require('react-native');
-var { StyleSheet, requireNativeComponent, PropTypes, processColor } = React;
+var React = require('react');
+var ReactNative = require('react-native');
+var { PropTypes } = React;
+var { StyleSheet, requireNativeComponent, processColor } = ReactNative;
 var SMXTabBarIconItemIOS = require('./SMXTabBarIconItemIOS.ios.js');
+
+
 
 var SMXTabBarIOS = React.createClass({
   propTypes: {
